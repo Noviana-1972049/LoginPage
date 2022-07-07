@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css.css">
+		<style type="text/css">			
+		
+			input[type=text], input[type=password]{
+				margin: 5px auto;
+				width: 100%;
+				border: 2px solid grey;
+				border-radius: 4px;
+				padding: 12px 16px;
+				box-sizing: border-box;	
+			}
+			
+			input[type=button]{
+				margin: 5px auto;
+				width: 70%;
+				border-radius: 4px;
+				background-color: #C1C1C1;
+				padding: 13px 28px;
+				color: white;
+				border: 2px solid grey;
+				font-size: 20px;
+				cursor: pointer;
+				box-sizing: border-box;
+				display: block;	
+			}
+	
+			input[type=button]:hover{
+				background-color: grey;
+			}
+			
+			legend{
+				font-family: 'Montserrat', sans-serif;
+			}
+			
+			
+	
+		</style>
+	</head>
+	<body>
+		<nav>
+			<input id="nav-toggle" type="checkbox">
+			<div class="logo">DREAMS <strong> ORGANIZER</strong></div>
+			<ul class="links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#work">Layanan</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#contact"><img src="notif2.png" width="35px" height="35px"></a></li>
+				<br>
+				<li><a href="#user"><img src="user.png" width="50px" height="50px"></a></li>
+			</ul>
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+		</nav>
+		<div class="login">	
+			<form>
+				<legend align="center"> DREAMS ORGANIZER </legend>
+				<label> Email </label>
+				<input type="text" value=""> <br>
+				<label> Password </label>
+				<input type="password" value=""> 
+				<a href=""> <p class="forget_pass">  Forgot password? </p> </a>
+				<input type="button" value="login"> 
+				<p class="signup"> Not registered? <a class="createacc" href=""> Create an account! </a> </p>
+			</form>
+		</div>
+	</body>
+</html>
